@@ -1,0 +1,11 @@
+# 忽略根目录的
+/Binaries/
+/Intermediate/
+
+# 忽略所有子目录（比如 Plugins/** 下的模块）
+**/Binaries/
+**/Intermediate/
+
+# 兼容大小写（跨平台更稳）
+[Bb]inaries/
+[Ii]ntermediate/
